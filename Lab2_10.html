@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <script>
+        document.addEventListener('contexdiff',e=>e.preventDefault());
+        document.addEventListener('moudedown',function(e){
+            if(e.button===0){
+                alert('left click');
+            }
+            if(e.button===2){
+                alert('right click');
+            }
+        });
+    </script>
+</body>
+</html>

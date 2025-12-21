@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      n1 = parseInt(prompt("enter first no"));
+      n2 = parseInt(prompt("enter second no"));
+
+      if (n1 < n2) {
+        for (i = n1; i <= n2; i++) {
+          n = 0;
+          for (j = 1; j <= n1; j++) {
+            if (i % j == 0) {
+              n++;
+            }
+          }
+          if (n == 2) {
+            document.write(i);
+          }
+        }
+      } else {
+        for (i = n2; i <= n1; i++) {
+          n = 0;
+          for (j = 1; j <= i; j++) {
+            if (n2 % i == 0) {
+              n++;
+            }
+          }
+
+          if (n == 2) {
+            document.write(i);
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
