@@ -1,0 +1,56 @@
+npm i mongo
+.connect("url")
+abc=Mon.schema(
+    name:string;
+)
+a=.model("abc")
+a.findn
+
+const userschema=new schema({
+    name:string,
+    age:number
+});
+
+servwer.js
+const express=require('express')
+const mongoose=re...
+const facultyroutes=require..
+const app..
+
+middleware built in
+app.use(express.json())
+
+mongoose.connect('url')
+
+.then()=>c.l()
+.catch(err)=>
+
+app.use("/api/faculty",facultyroutes)
+app.listen
+
+
+faculty.js
+
+const mongoose..
+const facultyschema=new mongoose.schema({
+    name:{
+        type:string,
+        required:true
+    },
+    department:{
+        ty..
+    }
+})
+module.exports=mongoose.model("faculty",facultyschema)
+
+facultyroutes.js
+
+note: await is only use in async
+const express, faculty, app
+app.post("/",async(req,res)=>{
+    try{
+        const faculty=new faculty(req.body)
+        const 
+    }
+})
+
