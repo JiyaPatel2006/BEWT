@@ -1,5 +1,5 @@
 const mongoose=require('mongoose')
-const facultyschema= new mongoose.schema({
+const facultyschema= new mongoose.Schema({
     name:{
         type:String,
         required:true
@@ -17,5 +17,5 @@ const facultyschema= new mongoose.schema({
         type:Number,
         required:true
     }
-})
+});
 module.exports=mongoose.model("Faculty",facultyschema)
