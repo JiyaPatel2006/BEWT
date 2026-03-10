@@ -98,10 +98,10 @@ const fs=require('fs')
 // }
 //10
 //fs.watch to monitor changes in watchme.txt and change file print 'file change'
-fs.watch("output.txt",()=>{
-    console.log("file change");
-}) 
-console.log("watchimg file")
+// fs.watch("output.txt",()=>{
+//     console.log("file change");
+// }) 
+// console.log("watchimg file")
 
 
 

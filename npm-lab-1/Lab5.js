@@ -1,6 +1,6 @@
-// const child_process=require("child_process");
-// const { stdout } = require("process");
-// const https=require("https")
+const child_process=require("child_process");
+const { stdout } = require("process");
+const https=require("https")
 // child_process.exec("node -v",(error,stdout)=>{
 //     if(error){
 //         console.error("Error occured:",error.message)
